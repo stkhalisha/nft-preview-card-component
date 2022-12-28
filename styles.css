@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* CSS RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+html {
+    font-size: 18px;
+}
+
+/* BODY */
+
+body {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    color: hsl(215, 51%, 70%);
+}
+
+article {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 1.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* IMAGE */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.main-img {
+    width: 100%;
+    object-fit: cover;
+}
+  
+.view-icon {
+    position: absolute;
+    top: 0;
+    min-height: 18rem;
+    width: 100%;
+}
+
+.view-icon:hover {
+    background-image: url("./images/icon-view.svg");
+    background-color: hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: background-color ease 0.5s;
+  }
+  
+/* CARD CONTENT */
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    margin-top: 0.9em; 
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.card-desc {
+    margin: 0.9em 0;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.price, .time {
+    display: flex;
+    align-items:  center;
+    gap: 0.5rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 0.6rem 0;
+}
+
+.author-img {
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
+
+span {
+    color: hsl(0, 0%, 100%);;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: ease 0.5s;
+}
