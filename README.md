@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stkhalisha/nft-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://stkhalisha.github.io/nft-preview-card-component/)
+- Solution URL: [Solution URL](https://github.com/stkhalisha/nft-preview-card-component.git)
+- Live Site URL: [Live site URL](https://stkhalisha.github.io/nft-preview-card-component/)
 
 ### Built with
 
