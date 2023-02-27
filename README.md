@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/stkhalisha/nft-preview-card-component.git)
-- Live Site URL: [Live site URL](https://stkhalisha.github.io/nft-preview-card-component/)
+- Live Site URL: [Live site URL](https://stkhalisha-nft-preview-card-component.vercel.app/)
 
 ### Built with
 
